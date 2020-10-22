@@ -1,0 +1,23 @@
+main: dev.birman.duelmutex.Main
+name: DuelMutex
+version: 1.0
+author: TheBirmanator
+api-version: 1.16
+description: Simple duels plugin that demonstrates mutexes
+commands:
+  duel:
+    usage: /<command> player
+    aliases: [ fight, versus, challenge ]
+    description: Challenge a player to a duel
+  accept:
+    usage: /<command>
+    aliases: [ acc, yes, daccept ]
+    description: Accept a challenge to a duel
+  deny:
+    usage: /<command>
+    aliases: [ no, ddeny ]
+    description: Deny a challenge to a duel
+  leave:
+    usage: /<command>
+    aliases: [ quit, forfeit, abandon]
+    description: Leave the duel you are currently in
